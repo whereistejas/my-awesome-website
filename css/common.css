@@ -1,0 +1,48 @@
+html {
+	margin: 0;
+	padding: 0;
+
+	font: normal 100%/1 Hack;
+
+	background: #0f292f;
+	color: #cccccc;
+}
+
+#current {
+	font-weight: bold;
+	color: rgb(255, 165, 0);
+}
+
+.post-title {
+	color: #8B8680;
+}
+
+a:link {
+	color: #14a098;
+}
+a:visited{
+	color: #14a098;
+}
+a:hover{
+	color: rgb(255, 165, 0);
+}
+a:active{
+	color: rgb(255, 165, 0);
+}
+
+.nav {
+	margin: 0;
+	padding: 0;
+
+	font-size: 1.30rem;
+
+	list-style-type: none;
+}
+
+.nav > li {
+	display: inline-block;
+}
+
+.credits-post {
+	color: rgb(120, 120, 120);
+}

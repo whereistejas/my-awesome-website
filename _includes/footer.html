@@ -1,0 +1,5 @@
+{% if page.category == "page" %}
+	{% include credits.html creditclass='credits-page' %}
+{% else %}
+	{% include credits.html creditclass='credits-post' %}
+{% endif %}

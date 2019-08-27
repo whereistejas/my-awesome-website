@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+	<head>
+		<meta charset="utf-8">
+		<title>This is Awesome</title>
+		<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1 style="color: #cb2d6f">whereistejas.me</h1>
+			{% include nav.html %}
+		</header>
+
+		{{content}}
+
+		<footer>
+			{% include credits.html creditclass="credits-post" %}
+		</footer>
+	</body>
+</html>
