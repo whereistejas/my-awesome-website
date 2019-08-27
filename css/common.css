@@ -1,3 +1,7 @@
+@font-face {
+	font-family: "Hack";
+	src: url("../assets/fonts/Hack-Regular.ttf");
+}
 html {
 	margin: 0;
 	padding: 0;
